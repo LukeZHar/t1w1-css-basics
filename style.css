@@ -1,0 +1,45 @@
+/* element{ 
+ property: value; 
+} */
+h1{
+    color: #ad3103;
+    background-color: black;
+    text-align: center;
+    }
+.Sub-title{
+    color: blue;
+    font-size: 20px;
+    }
+#title{
+    color: green;
+    font-size: 10px;
+    border: 2px solid red;
+    }
+
+button:hover{
+    background-color: grey; 
+    }
+
+img{
+    width: 100vw;
+    height: 100vh;
+    }
+
+.tiny-box {
+    width: 100px;
+    height: 100px;
+    background: grey;
+    margin: 5px;
+    display: inline-block;
+}
+
+    @media screen and (max-width: 600px){
+        .Sub-title {
+            font-size: 10px; 
+        }
+
+        body {
+            background: black;
+            
+        }
+}
